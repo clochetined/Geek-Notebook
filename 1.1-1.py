@@ -49,6 +49,7 @@ print(s.add(6))
 
 #setから要素を削除するには
 print(s.remove(3))
+
 print(s.clear())
 
 
