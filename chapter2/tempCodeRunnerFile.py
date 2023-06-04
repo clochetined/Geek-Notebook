@@ -1,0 +1,2 @@
+
+print(args[0])
