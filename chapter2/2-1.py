@@ -80,11 +80,28 @@ import numpy as np
 
 # s = b'where what who when why how'
 
-arr = np.array([1,2,3,4,5])
-print(arr)
-print(type(arr))
+# arr = np.array([1,2,3,4,5])
+# print(arr)
+# print(type(arr))
 
-arr2 = np.array([[1,2,3,4,5],[6,7,8,9,10]])
-print(arr2)
+# arr2 = np.array([[1,2,3,4,5],[6,7,8,9,10]])
+# print(arr2)
 
+# # arr2.shape = (5,2) # 5行2列
+# arr2.shape = (5,2)
+# print(arr2)
 
+# # print(arr2[0,1])
+# # print(arr2[1,1])
+# # print(arr2[2,1])
+# print(arr2[1,0:])
+
+# arr3 = np.array([1,2,3,4,5])
+
+# print(arr3.sum())
+
+arr4 = np.arange(10)
+print(arr4)
+
+arr5 = np.arange(10).reshape(2,5)
+print(arr5)

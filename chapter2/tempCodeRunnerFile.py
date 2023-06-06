@@ -1,2 +1,2 @@
 
-print(args[0])
+# # print(arr2[2,1])
