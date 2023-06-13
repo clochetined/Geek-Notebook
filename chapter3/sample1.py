@@ -8,7 +8,7 @@ import cv2
 
 # 画像ファイルの読み込み
 # 同じ階層にあるため、ファイル名のみ記述
-filename = "C:\Users\clochetined\Geek Salon\Geek-Notebook\chapter3\shoumei.jpg"
+filename = "chapter3\human.jpg"
 
 # 画像配列の生成
 orig = cv2.imread(filename)
