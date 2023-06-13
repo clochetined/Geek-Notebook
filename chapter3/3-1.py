@@ -105,6 +105,6 @@ img = cv2.imread(path)
 #                 thickness=2,
 #                 line_type=cv2.LINE_AA)
 
-cv2.imshow("img", img)
+cv2.imwrite("img", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
