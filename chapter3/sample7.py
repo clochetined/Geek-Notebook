@@ -18,3 +18,14 @@ print(bsObj.find_all("HTMLタグ", {"id":"id名"}))
 
 text = bsObj.find_all("HTMLタグ", {"id":"id名"})[0].get_text()
 print(text)
+
+# 子要素を取得する
+for child in bsObj.find("table", {"id":"giftList"}).children:
+    print(child)
+
+# 兄弟要素を取得する
+for sibling in bsObj.find("table", {"id":"giftList"}).tr.next_siblings:
+    print(sibling)
+
+# 親要素を取得する
+print(bsObj.find("img", {"src":"../img/gifts/img1.jpg"}).parent.previous_sibling.get_text())
