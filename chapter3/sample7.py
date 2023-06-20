@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'http://www.pythonscraping.com/pages/page3.html'
+url = "https://scraping-for-beginner.herokuapp.com/ranking/"
 html = requests.get(url)
 
 # print(html.text)
