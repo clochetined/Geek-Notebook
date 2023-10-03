@@ -13,7 +13,7 @@ def openRakutenLuckyKuji(pDriver, pURL):
         print("NoSuchElementException")
         time.sleep(5)
 
-webdriverpath = "C:\Chrome_Driver\chromedriver.exe"
+webdriverpath = "C:\Chrome_DriverC:\Chrome_Driver"
 optinons = webdriver.ChromeOptions()
 driver = webdriver.Chrome(webdriverpath)
 driver.set_window_size(1200, 800)
